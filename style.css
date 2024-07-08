@@ -71,6 +71,7 @@ nav a{
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 .form, .btn{
    display: flex;
@@ -79,4 +80,28 @@ nav a{
 .form h1{
     color: white;
     text-align: center;
+}
+
+/* Foods Sectino for responsive */
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 100px 20px;
+}
+.h-food{
+    border: 2px solid rgb(0, 0, 93);
+    border-radius: 7px;
+    padding: 25px 25px;
+}
+.h-food img{
+    width: 100%;
+}
+.h-food button a{
+    text-decoration: none;
+}
+.h-food button{
+    padding: 7px 15px;
 }
